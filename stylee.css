@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+   margin: -70px;
+
+}
+.logo{
+    width: 29%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo img{
+    text-decoration: none;
+}
+.menu{
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu ul{
+    list-style: none;
+    text-align: right;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 30px;
+}
+.menu li a{
+    color: rgb(65, 84, 90);
+    text-decoration: none;
+}
+.banner{
+    width: 50%;
+    height: 1300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.about{
+    padding: 30px 0;
+    background-color: white;
+}
+.hinh{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+   margin-top: 200px;
+}
+.content-about{
+    width: calc(50% - 5px);
+    display: inline-block;
+    vertical-align: middle;
+    padding: left 15px;
+    margin-top: 200px;
+}
+.clear{ clear: both;
+}
+.p{
+    padding-left: 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+.blog{ 
+    padding-top: 180px;
+}
+.blog h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.box{
+    overflow: hidden;
+    width: 26%;
+    display: inline-block;
+    margin-left: 90px;
+    background-color: rgb(97, 96, 96);
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+.avatar{
+    height: 400px;
+}
+.avatar img{
+    height: 100%;
+
+}
+.box h3{
+    margin: 12px 0;
+    margin-left: 160px;
+    color: white;
+}
+.footer{
+    margin-top: 150px;
+    /* background-color: tomato; */
+    padding: 60px 0;
+   margin-bottom: 50px;
+   height: 100px;
+}
+.footer ul{
+    list-style: none;
+    text-align: center;
+}
+.footer li{
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 30px;
+}
+.footer li a{
+    color: rgb(65, 84, 90);
+    text-decoration: none;
+}
+.footer p{
+    color: rgb(65, 84, 90);
+    text-align: center;
+    padding-top: 30px;
+}
